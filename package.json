@@ -1,0 +1,20 @@
+{
+  "name": "tkplayer",
+  "version": "1.0.0",
+  "description": "A music player for html5 easy to use!",
+  "main": "tkplayer.js",
+  "scripts": {
+    "build": "gulp"
+  },
+  "author": "yuansky88",
+  "license": "MIT",
+  "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "gulp": "^5.0.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-postcss": "^10.0.0",
+    "gulp-rename": "^2.0.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "gulp-uglify": "^3.0.2"
+  }
+}
