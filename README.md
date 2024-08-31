@@ -83,7 +83,7 @@
 <script src="./TKPlayer.js"></script>
 <script>
     // 在这里填写配置信息
-    Player.source_list([
+    TKPlayer.source_list([
         {
             name: "Once Upon a Time", // 歌曲名称
             author: "Max Oazo/Moonessa", // 歌曲作者
@@ -92,7 +92,7 @@
         }
     ]);
     // 音乐源配置完成后，启动播放器
-    Player.start(false); // 填入参数为false代表为主动源启动，而上面我们主动提供了
+    TKPlayer.start(false); // 填入参数为false代表为主动源启动，而上面我们主动提供了
 </script>
 ```
 
@@ -101,13 +101,13 @@
 如果你像上面一样，为播放器主动提供了播放源，你可以使用如下启动方式来进行主动源启动: 
 
 ```js
- Player.start(false);
+ TKPlayer.start(false);
 ```
 
 如果你只有一首歌曲需要播放，就无需配置`source_list` ，直接在start函数内配置播放信息即可:
 
 ```js
-Player.start({
+TKPlayer.start({
     name: "Once Upon a Time", // 歌曲名称
     author: "Max Oazo/Moonessa", // 歌曲作者
     cover: "./res/cover/03.jpg", // 歌曲封面
@@ -118,7 +118,7 @@ Player.start({
 实在没辙了，这里你可以不用配置任何信息，这里将会为你推荐一首歌曲:
 
 ```js
- Player.start();
+ TKPlayer.start();
 ```
 
 推荐服务器也是我写的一个项目，但是不到多久会挂掉，建议自己写配置信息，不过你也可以修改源代码，修改为你的推荐服务器。
