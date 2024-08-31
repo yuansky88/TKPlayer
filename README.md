@@ -2,7 +2,7 @@
 
 *V 1.0.0 Alpha 测试版*
 
-[中文文档]   [项目演示]
+[[中文文档](https://api.cnsoft.top/tkplayer/doc)]   [[项目演示](https://api.cnsoft.top/tkplayer/demo/)]
 
 ## 简介
 
@@ -66,7 +66,11 @@
 通过CDN安装的方法几乎和上面一样，你只需要把这个文件地址更换为CDN地址就行。
 
 ```HTML
+<!-- 引入css -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/yuansky88/TKPlayer@1.0.0-alpha/dist/css/tkplayer.min.css">
 
+<!-- 引入js -->
+<script src="https://cdn.jsdelivr.net/gh/yuansky88/TKPlayer@1.0.0-alpha/dist/js/tkplayer.min.js"></script>
 ```
 
 
